@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: motion;
+    animation-duration: 4s; 
+    animation-iteration-count: 5;
+}
+
+.circle_main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+   height: 200px;
+    background-color: rgb(210, 201, 30);
+    border-radius: 50%;
+    border:5px solid #442200;  
+    
+}
+
+.eyes1:before, .eyes1:after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    width: 25px;
+    height: 25px;
+    background: #442200;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation-name: motion_eyes;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+
+.eyes1:before{
+    left: 25%;
+    
+}
+
+.eyes1:after{
+    right: 25%;
+}
+
+@keyframes motion  {
+    0% {
+        transform:  translateY(0);
+    }
+
+    25% {
+        transform:  translateY(200px);
+    }
+}
+
+@keyframes motion_eyes  {
+    0% {
+        transform:  translateX(0);
+    }
+
+    25% {
+        transform:  translateX(30px);
+        height: 20px;
+      
+    }
+
+    50%{
+        transform:  translateY(30px);
+        height: 30px;
+    }
+
+    75%{
+        transform:  translateY(-20px);
+        height: 30px;
+    }
+
+    100%{
+        transform:  translateX(-30px);
+        height: 20px;
+     
+    }
+}

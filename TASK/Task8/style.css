@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-main {
+  display: inline;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.logo {
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.ls1 {
+  float: left;
+  margin-top: 10px;
+  color: rgb(52, 52, 52);
+}
+
+.butn1 {
+  margin-left: 10vw;
+  width: 10vw;
+  padding: 10px;
+  background-color: rgb(182, 217, 243);
+  border: none;
+  border-radius: 15px;
+  color: rgb(10, 187, 252);
+}
+
+.main_pra {
+  display: inline;
+  width: 120vw;
+}
+.pragraph {
+  margin-top: 35vh;
+  position: absolute;
+  width: 20vw;
+  margin-left: 10vw;
+}
+.spantext {
+  color: rgb(60, 156, 241);
+}
+h1 {
+  line-height: 1.5;
+}
+p {
+  color: rgb(144, 144, 144);
+  letter-spacing: 2px;
+  width: 30vw;
+  line-height: 1.5;
+}
+
+img {
+  height: 80vh;
+  float: right;
+  margin-right: 10vw;
+  margin-top: 10vh;
+}
+.butn2 {
+  background-color: rgb(28, 138, 234);
+  width: 18vw;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+.butn2:hover{
+ transform: rotatez(-23deg)  ;
+}
+
+  .side-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    margin-left: 29vw;
+    width: 70vw;
+    height: 135vh;
+    background-color: #000000;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .side_li {
+    margin-top: 20vh;
+    margin-right: 80px;
+  }
+  .side-menu ul li {
+    padding: 10px 0px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 50px;
+    width: 100px;
+  }
+  .hamburger-container:focus-within .side-menu {
+    display: block;
+  }
+@media (min-width: 768px) and (max-width: 1178px) {
+  .logo {
+    margin-left: 0px;
+  }
+
+  .ls1 li {
+    margin-left: 20px;
+  }
+
+  .butn1 {
+    margin-top: 10px;
+    width: 15vw;
+  }
+  img {
+    height: 70vh;
+    margin-right: 0;
+    margin-top: 7vh;
+  }
+  .butn2 {
+    width: 28vw;
+    font-size: 14px;
+  }
+  h1 {
+    width: 40vw;
+    margin-top: -20vh;
+  }
+  .pra {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .ls1 {
+    display: none;
+  }
+
+  .butn1 {
+    margin-top: 10px;
+    width: 20vw;
+    margin-left: 20vw;
+  }
+
+  .main_pra {
+    display: none;
+  }
+  .pragraph {
+    margin-top: 4vh;
+  }
+  h1 {
+    width: 80vw;
+  }
+  .pra {
+    width: 80vw;
+  }
+  .butn2 {
+    width: 48vw;
+    font-size: 12px;
+  }
+  img {
+    height: 70vh;
+    margin-top: 60vh;
+  }
+
+  .hamburger-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.hamburger-menu div {
+    width: 30px;
+    height: 2.5px;
+    background-color: #464646;
+    margin: 5px 0;
+    transition: transform 0.4s ease;
+}
+/* */
+
+
+}

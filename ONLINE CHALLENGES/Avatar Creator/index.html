@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Avatar | Profile</title>
+</head>
+
+<body>
+    <nav class="bg-black text-white flex justify-center items-center h-16 text-3xl">
+        <p>Avatar Creator</p>
+    </nav>
+    <main class="w-screen h-screen bg-red-400 text-white flex justify-center items-center">
+        <div class="content w-96 h-96 bg-yellow-300 flex flex-col justify-center items-center gap-y-10">
+            <p>Hello <span class="text-pink-600" id="name">Pikachu</span></p>
+            <img src="./pikachu.png" alt="Dorimon" class="w-40 rounded-2xl" id="imgRandom" />
+            <div>
+                <input type="text" placeholder="Enter Name" class="rounded text-black p-2" id="txtName" />
+                <button class="bg-blue-600 px-5 rounded p-2" id="btnGenerateImage">
+                    Generate Image
+                </button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

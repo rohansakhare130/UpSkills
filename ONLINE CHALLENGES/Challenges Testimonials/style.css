@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f2f7f2;
+}
+
+.container {
+    border: 2px solid #00a1e4;
+    background: linear-gradient(60deg, rgb(198, 187, 187), rgb(243, 208, 144));
+    height: 40vmin;
+    width: 40%;
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.circle{
+    height: 10vmin;
+    width: 10.5vmin;
+    border-radius: 50%;
+    background-size: 90%;
+    background-color: darkgrey;
+    position: absolute;
+    z-index: 2;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.first-circle{
+    top: -30px;
+    left: 15px;
+}
+
+.second-circle{
+    bottom: -35px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+
+.text{
+    text-align: center;
+    margin-top: 30px; 
+}
+
+.details > p{
+    text-align: center;
+}
+
+.profile-img{
+    border: 5px solid #00a1e4;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.name{
+    font-weight: 800;
+    font-size: calc(16px + 1vmin);
+}
+
+.city{
+    font-size: calc(12px + 1vmin);
+}
+
+.bar{
+    content: "";
+    height: 5px;
+    width: 0;
+    position: absolute;
+    background: linear-gradient(90deg, red, orange);
+    bottom: 0;
+    border-radius: 20px;
+    left:10px;
+    z-index: 1;
+}
+
+.activeWidth{
+    animation: width 4.8s linear 0.3s;
+}
+@keyframes width{
+    to{
+        width: 88%;
+    }
+}
+.active{
+    animation: translate 0.75s 1 ease-in forwards;
+}
+@keyframes translate {
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

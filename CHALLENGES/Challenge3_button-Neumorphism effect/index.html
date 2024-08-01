@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Effect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/010ff53785.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <button class="left-arrow"><i class="fa-solid fa-caret-left"></i></button>
+        <button class="play"><i class="fa-solid fa-play"></i></button>
+        <button class="left-arrow"><i class="fa-solid fa-caret-right"></i></button>
+    </div>
+
+    <script>
+        const buttons =document.querySelectorAll('.left-arrow, .play');
+
+        buttons.forEach(el => {
+            el.addEventListener('click', ()=>{
+                el.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

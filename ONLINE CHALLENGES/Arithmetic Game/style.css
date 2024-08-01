@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./image/img-bg.jpg);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgb(220, 189, 189);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+  }
+  
+  h1, #problem {
+    color: white;
+  }
+  
+  #game {
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"], button {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgb(29, 250, 0);
+  }
+  
+  #result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #timer {
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  

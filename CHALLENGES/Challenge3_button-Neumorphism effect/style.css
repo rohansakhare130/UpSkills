@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+body{
+    display: flex;
+    justify-content: center;
+   margin-top: 35vh;
+}
+.container{
+    height: 30vh;
+    width: 400px;
+    background: #ebeef1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 30px;
+    width: 200px;
+    background: #ebeef1;
+    cursor: pointer;
+    border: none;
+    color: #00a037;
+    border-radius: 10px;
+    transition: 0.5s all ease;
+}
+
+.left-arrow{
+    box-shadow: 10px 10px 10px 1px rgba(10,99,169,0.16),
+    -10px -10px 10px -1px rgba(255,255,255,0.70);
+    
+}
+
+.play{
+color: #ed0000;
+border-radius: 50px;
+box-shadow: inset 10px 10px 10px -1px rgba(10,99,169,0.16),
+            inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+ .left-arrow.active{
+    box-shadow: inset 10px 10px 10px -1px rgba(10,99,169,0.16),
+            inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+
+.play.active{
+    box-shadow: 10px 10px 10px 1px rgba(10,99,169,0.16),
+                -10px -10px 10px -1px rgba(255,255,255,0.70);
+}

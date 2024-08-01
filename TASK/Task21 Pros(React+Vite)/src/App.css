@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card1{
+  background: linear-gradient(rgb(10 10 10 / var(--tw-bg-opacity)), rgb(10 10 10 / var(--tw-bg-opacity))) padding-box,
+              linear-gradient(to right, red,  darkblue, darkorchid) border-box;
+
+  border: 4px solid transparent;
+
+}

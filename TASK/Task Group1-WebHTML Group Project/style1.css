@@ -1,0 +1,335 @@
+*{
+    margin: 0%;
+    border: border-box;
+    font-family: Arial;
+}
+.font-color{
+    color: hwb(0 62% 33%);
+}
+.navbar{
+    display: flex;
+    color:#545252;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 70px;
+    /* background-color: aqua; */
+}
+.logo{
+    margin-left: 15px;
+}
+h2{
+    color: orange;
+}
+span{
+    color: blue;
+    font-weight: 1000;
+}
+.nav-items ul a{
+    margin-left: 45px;
+}
+.nav-search{
+    display: flex;
+    border: 2px solid #b5b0b0;
+    height: 20px;
+    width:10%;
+    font-size: 0.85rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: flex-start;
+}
+.nav-shop{
+    display: flex;
+    border: 2px solid #b5b0b0;
+    width: 3%;
+    justify-content: space-evenly;
+    height: 20px;
+    border-radius: 5px;
+    color: blue;
+}
+.nav-user{
+  display: flex;
+  border-radius: 50%;
+  width: 50px;
+  height: 40px;
+  border: 2px solid #b5b0b0;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+/* Main */
+
+
+.left-part{
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.left-section{
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+    height: 400px;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 50%;
+    padding-left: 40px;
+}
+.left-section h1{
+    padding-left: 40px;
+}
+.list{
+    padding-top: 20px;
+}
+.list p{
+    padding-top: 40px;
+}
+.wrong{
+    color: red;
+    font-weight: 700;
+}
+main{
+    display: flex;
+}
+.right-section{
+    /* border: 2px solid black; */
+    /* background-color: blue; */
+    height: 400px;
+    margin-top: 140px;
+    padding-top: 30px;
+    width: 50%;
+    padding-left: 40px;
+
+}
+.right-container{
+    border: 2px solid cornsilk;
+    height: 300px;
+    margin-top: 30px;
+    width: 60%;
+    margin-left:80px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.coupon-code{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.coupon1{
+    border: 2px solid #b5b0b0;
+    height: 60px;
+    width: 55%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #545252;
+}
+.apply-coupon{
+    background-color: blue;
+    border: 2px solid #b5b0b0;
+    border-radius: 10px;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    
+}
+.bold{
+    font-weight: 700;
+}
+
+.bill{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bill ul p{
+    margin-top: 15px;
+}
+
+.pay-now{
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    border: 2px solid;
+    background-color: orange;
+    height: 70px;
+    width: 68%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.pay-now i{
+    margin-left: 10px;
+}
+.razorpay{
+    background-image: url("razorpay.jpg");
+    background-size: cover;
+}
+
+.foot{
+    margin-top: 45px;
+    margin-left: 50px;
+    display: block;
+
+}
+
+
+/* 2nd page css */
+
+
+.checkout{
+    font-size: 0.85rem;
+    color: #c4bbbb;
+    padding-top: 25px;
+    font-weight: 700;
+}
+.leftmain{
+    /* background-color: blanchedalmond; */
+    height: 667px;
+    width: 50%;
+    padding: 15px;
+}
+.contact{
+   padding-top: 30px;
+   font-size: 1.3rem;
+   font-weight: 700;
+}
+.email{
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+.usersec{
+    display: flex;
+    background-color:#f2efef;
+    color: #413f3f;
+    border: 1px solid #c4bbbb;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+.Details{
+    background-color: white;
+    height: 420px;
+    border-radius: 10px;
+    border: 1px solid #c4bbbb;
+}
+.card-bank{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.card{
+    height: 60px;
+    background-color: white;
+    border: 2px solid #c4bbbb;
+    width: 80px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.orange{
+    color: orange;
+    border: 1px solid orange;
+}
+.cardnum{
+    padding-top: 20px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+.newuser{
+    display: flex;
+    border: 1px solid #c4bbbb;
+    background-color:#f2efef;
+    color: #413f3f;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.expiry-cvc{
+    display: flex;
+    margin-top: 10px;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+  }
+.date{
+    border: 1px solid #c4bbbb;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+.expiry{
+    margin-left: 10px;
+}
+.cvc{
+    margin-left: 50px;
+}
+.cvcdate{
+    border: 1px solid#c4bbbb;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+
+
+
+.country-zip{
+    display: flex;
+    margin-top: 10px;
+}
+.india{
+    border: 1px solid #c4bbbb;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+.country{
+    margin-left: 10px;
+}
+.zip{
+    margin-left: 50px;
+}
+.zipcontent{
+    border: 1px solid #c4bbbb;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+
+.text{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+.main-sec{
+    display: flex;
+}

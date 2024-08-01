@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // Define static values
+        const principal = 5000; // principal amount
+        const rate = 0.05; // annual interest rate (5%)
+        const time = 3; // time period in years
+
+        // Function to calculate compound interest
+        function calculateCompoundInterest(principal, rate, time) {
+            // Number of times interest is compounded per year
+            const n = 1; // Compounded annually
+
+            // Calculate compound interest
+            const amount = principal * Math.pow((1 + rate / n), n * time);
+            const interest = amount - principal;
+
+            return interest.toFixed(2); // Return compound interest rounded to 2 decimal places
+        }
+        // Call the function and log the result
+        const compoundInterest = calculateCompoundInterest(principal, rate, time);
+        console.log("Compound Interest:", compoundInterest);
+    </script>
+</body>
+
+</html>

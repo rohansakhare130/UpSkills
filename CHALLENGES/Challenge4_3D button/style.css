@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* :root{
+     --button-color:#000;
+     --rectangle-color:#eceaea;
+     --reactangle-width:1.3em;
+     --padding:30px;
+     --button-width:11em;
+     --fontSize:2em;
+     --Border-radius:100px;
+
+} */
+
+body{
+    background-image: linear-gradient(to right, rgb(203, 200, 200) , rgb(108, 108, 72));
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+   
+}
+
+
+.Button{
+    background-color: #000;
+    border: 3px solid #fff;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom:40px;
+    width: 11em;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: 
+    box-shadow 0.5s,
+    font-size 0.5s,
+    padding 0.5s,
+    rotate 0.5s,
+    width 0.5;
+}
+
+
+.Button:hover{
+    box-shadow: -20px 20px #000, -20px 20px 0px 3px #fff;
+    rotate: -10deg;
+    width: 12em;
+    padding: 60px;
+    font-size: 2.5em;
+}
+
+.Button:active{
+    scale: 0.99;
+}
+
+.cords{
+    width:11em;
+    border-radius: 100px;
+    position: absolute;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.Button:hover .cords{
+    width: 12em;
+}
+
+.Button .cords > *{
+    transform: skew(20deg);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: -11em;
+    background-color: #eceaea;
+    height: 100%;
+    transition: left 0.4s linear;
+}
+
+.Button .cords .rectangle-1{
+    width: 0.3em;
+    margin-left: 1.5em;
+}
+
+.Button .cords .rectangle-2{
+    width: 1.3em;
+}
+
+.Button:hover .cords > *{
+    left: 22em;
+}
+
+.stars{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+
+}
+
+.stars > img{
+    scale: 0;
+    transition: scale 0.5s;
+
+}
+
+.Button:hover .stars > img{
+    scale:0.4;
+}

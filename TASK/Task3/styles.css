@@ -1,0 +1,28 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.main {
+ margin-top: 10%;
+ margin-left: 25%;
+}
+
+img {
+ width: 50vw;
+ height: 50vh;
+}
+
+.btn {
+  width: 50vw;
+  padding: 2vh 4vw; 
+  background-image: linear-gradient(to right, rgb(255, 170, 0), rgb(94, 255, 0));
+  color: #fff;
+  font-size: 3vh; 
+  border: none; 
+  cursor: pointer;
+}

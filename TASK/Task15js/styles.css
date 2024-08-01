@@ -1,0 +1,23 @@
+header{
+    background-color: rgb(229, 230, 230);
+    padding: 20px;
+    text-align: center;
+}
+
+.contener{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20vh;
+}
+.Box{
+    padding: 40px;
+    border: 2px solid #d4d4d4;
+    width: 50px;  
+    text-align: center;
+}
+
+.cont2{
+   text-align: center;
+   margin-top: 15vh;
+}

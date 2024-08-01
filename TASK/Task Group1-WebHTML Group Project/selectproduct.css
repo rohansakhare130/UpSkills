@@ -1,0 +1,75 @@
+.select_main{
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+.shole1-main{
+    margin-top: 3vh;
+    display: flex;
+   justify-content:space-evenly;
+
+}
+.sholes12_pic{
+    width: 40vw;
+    transition: width 1s;
+}
+
+.sholes12_pic:hover{
+    width: 42vw;
+}
+
+.content_main{
+    width: 400px;
+}
+
+.ps_rs{
+    display: flex;
+    gap: 40px;
+}
+
+.content_text1{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.price_text{
+    color: blue;
+     width: 80px;
+    height: 35px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(236, 235, 235);
+  
+}
+
+.price_text1{
+    color: rgb(151, 255, 114);
+}
+
+.m-1{
+    margin-top: 20px;
+    align-items:center;
+}
+
+.card_btn2{
+    background-color: rgb(255, 147, 14);
+    padding: 13px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.shoes_main5{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+.s_pic1{
+    width: 150px;
+   margin-top: 45px;
+   transition: width 1s;
+}
+
+.s_pic1:hover{
+    width: 200px;
+}
