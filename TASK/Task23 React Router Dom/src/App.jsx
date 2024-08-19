@@ -10,11 +10,11 @@ import Log from "./components/home/Log";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: '/',
       element: <Screen />,
       children: [
         {
-          path: '/home',
+          path: '/',
           element: <Home />
         },
         {

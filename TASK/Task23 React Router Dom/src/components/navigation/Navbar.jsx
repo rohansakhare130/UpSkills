@@ -21,7 +21,7 @@ function Navbar() {
             <ul className="flex flex-col mt-4 text-xl font-bold lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
                 <NavLink
-                  to="/home"
+                  to="/"
                   className={({ isActive }) =>
                     `block py-2 pr-4 pl-3 duration-200 ${
                       isActive ? "text-orange-700" : "text-gray-700"
