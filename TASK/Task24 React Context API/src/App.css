@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.head-img-1{
+  width: 60px;
+  height: 60px;
+  background-color: rgb(160, 223, 158);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+
+.box-1{
+  height: 50vh;
+}
+
+.box-main{
+  width: 60vw;
+  height: 80vh;
+  padding-top: 14vh;
+  overflow-y: scroll;
+  padding-bottom: 4vh;
+  margin-top: -4vh;
+}
+
+.card-main{
+  width: 40vw;
+  height: 80vh;
+  overflow-y: scroll;
+  padding: 20px;
+  margin-top: -4vh;
+}
+.product{
+  width: 28vw;
+}
+.price{
+  text-align: center;
+}
+
+.navbar-link:hover{
+  color: rgb(242, 180, 10);
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn1:focus{
+  color: white;
+  background-color: blue;
+}
+.btn2:focus{
+  color: black;
+  background-color: rgb(247, 165, 107);
+}
+button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .box-main{
+    width: 50vw;
+  }
+
+  .card-main{
+    width: 50vw;
+  }
+  .product{
+    width: 100%;
+  }
+}
